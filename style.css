@@ -1,11 +1,182 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.blue{
-    background-color: blue;
-    width: 400px;
-    height: 400px;
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.mainconteiner {
+    padding: 30px 40px;
+    width: 672px;
+    height: 328px;
+    background-color: #5D5FEF;
+    border: #3437F1;
+    border-radius: 11px;
+}
+
+
+
+.mainconteiner_header p {
+    margin: 0;
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #5D5FEF;
+    line-height: 10px;
+}
+
+
+
+.mainconteiner_header button {
+    padding: 8px 16px 8px 16px;
+    color: #5D5FEF;
+    background-color: #E8E8FF;
+    width: fit-content;
+    height: 54px;
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: 400;
+    border-radius: 1px;
+    border: none;
+    line-height: 10px;
+}
+
+
+
+.avatars {
+    display: flex;
+    align-items: center;
+    filter: drop-shadow(0px 0px 14px rgba(0, 0, 0, 0.5));
+}
+
+
+
+.more {
+    color: #5D5FEF;
+    border-radius: 100px;
+    border: #E0E6ED;
+    width: 2px;
+    background-color: white;
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: 400;
+    width: 120px;
+    height: 38px;
+    line-height: 11px;
+    letter-spacing: 0.14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 7;
+    left: -100px;
+    top: 11px;
+}
+
+.avatar {
+    position: relative;
+}
+
+.avatar1 {
+    z-index: 1;
+}
+
+.avatar2 {
+    position: relative;
+    left: -15px;
+    z-index: 2;
+}
+
+.avatar3 {
+    position: relative;
+    left: -30px;
+    z-index: 3;
+}
+
+.avatar4 {
+    position: relative;
+    left: -45px;
+    z-index: 4;
+}
+
+
+.progress_bar {
+    width: 100%;
+    height: 12px;
+    background: rgba(255,255,255,0.25);
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+
+.progress_fill {
+    width: 60%;   
+    height: 100%;
+    background: white;
+    border-radius: 50px;
+}
+
+
+
+.progress_section {
+    margin-top: 40px;
+    position: relative;
+}
+
+
+
+
+
+.progress_text {
+    position: absolute;
+    right: 0;
+    top: -35px;
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+}
+
+
+
+
+
+.mainconteiner_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.avatars {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+
+.users {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.more {
+    background: white;
+    color: #5D5FEF;
+    border-radius: 50px;
+    font-weight: 500;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25px;
 }
